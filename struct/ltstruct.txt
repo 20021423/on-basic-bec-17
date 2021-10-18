@@ -1,0 +1,40 @@
+﻿// https://paste.ubuntu.com/p/7BbyNS8d7G/?fbclid=IwAR3NoeATqll5VFwM4t3wem8veT45bi05pmpQk1-cGXx7pkfNJqbJqB3qcX4
+1. struct là gì ?
+- struct là kiểu dữ liệu cấu trúc do lập trình viên tự định nghĩa và quản lý, trong struct có thể chứa nhiều kiểu dữ liệu có sẵn như int,char,string...gói chung vào 1 struct
+2. cú pháp khai báo 1 struct ?
+
+struct <tên cấu trúc> 
+{
+	<biến thành viên 1>;
+	<biến thành viên 2>;
+};
+
+vd: struct PhanSo
+{
+	int TuSo;
+	int MauSo;
+};
+
+3. Đặt khai báo struct dưới hàm main được không? vì sao ?
+hoàn toàn được, struct đơn giản là một kiểu dữ liệu và có thể khai báo như biến toàn cục hoặc biến địa phương phụ thuộc vào nhu cầu của lập trình viên
+
+4. dòng typedef có chức năng gì ? tối ưu việc gì ?
+ cú pháp là typdef struct <tên cấu trúc> <tên mới>
+ chức năng là định nghĩa lại cấu trúc thành tên mới
+ vd: typedef struct SINHVIEN sv; // định nghĩa lại cấu trúc SINHVIEN thành sv cho đơn giản và gọn
+ Tối ưu cho việc khai báo và sử dụng biến cấu trúc: thay vì mỗi lần khai báo phải ghi struct SINHVIEN <tên biến> thì nếu có lệnh typedef struct SINHVIEN sv thì chỉ việc khai báo sv <tên biến> 
+
+5. khi nào dùng sao chép bằng toán tử gán khi nào dùng gán lần lượt ? vì sao ?
+không có con trỏ thì dùng toán tử gán, có con trỏ nếu không muốn dùng chung vùng nhớ dữ liệu con trỏ trỏ tới thì phải gán lần lượt
+
+6. biến kdl struct có cần tham chiếu khi cập nhật giá trị thay đổi trong hàm không ?
+có, struct là kiểu dữ liệu chứa giá trị của các biến thành viên trong struct, nên khi cần cập nhật giá trị của biến thành viên phải dùng tham chiếu
+
+7. Nếu trong cấu trúc mà có biến con trỏ thì ta nên chú ý việc gì(đáp án gồm 3 ý - cố gắng trả lời đủ 3)
+- con trỏ thì phải cấp phát vùng nhớ để sử dụng
+- có cấp phát thì phải có delete
+- cần chú ý ghi gán struct
+
+8. struct dễ không ?
+...
+

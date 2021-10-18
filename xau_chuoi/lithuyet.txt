@@ -1,0 +1,6 @@
+Bài 1. Trình bày cơ chế cin, gets
+Trả lời: 
+- cin là nhập dữ liệu từ bàn phím, nhận được đến kí tự "\n" hoặc khoảng trắng là dừng
+- gets: đầu tiên sẽ vào kho kiểm tra có dữ liệu tồn không, nếu có thì lấy dữ liệu đó gắn cho biến trong gets(), nếu không có thì sẽ yêu cầu người dùng nhập vào. Chú ý: kí tự "\n" cũng là dữ liệu, khi gets nhận được kí tự này sẽ chuyển thành kí tự '\0';
+Bài 2. phân tích lỗi trôi lệnh
+Trả lời: xảy ra khi nhập 1 giá trị bằng cin trước khi nhập bằng gets

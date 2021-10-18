@@ -1,0 +1,73 @@
+1. So sánh con biến con trỏ và biến thường, trình bày chi tiết các thành phần của biến con trỏ và biến thường
+***Biến con trỏ dùng để lưu địa chỉ của biến khác, bản thân nó không có vùng nhớ, giá trị phải đi dùng ké của biến khác
+biến thường là biến lưu địa chỉ của chính nó và giá trị của nó, có vùng nhớ riêng của mình
+Các thành phần của biến con trỏ: địa chi(nơi nó sinh ra)+miền giá trị(lưu địa chị của vùng nhớ khác) + vùng nhớ/giá trị: giá trị của biến mà nó trỏ tới
+Các thành phần biến thường: địa chỉ và giá trị
+2. Ta có int a = 5; địa chỉ của a là BAX03
+trình bày luồng chương trình khi gặp lệnh: int *b = &a; 
+lệnh: cout<<b<<endl;
+lệnh: cout<<*b<<endl;
+lệnh: float *c = a;
+lệnh: a = 15; //trình bày các sự thay đổi liên quan
+***
+int *b = &a; // khởi tạo biến con trỏ kiểu int và gán cho nó tới địa chị của biến a;
+cout<<b<<endl; // cout ra địa chỉ của a tức là BAX03
+cout<<*b<<endl; // cout giá trị mà biến nó trỏ tới tức là giá trị của a=5;
+float *c = a; // cách gán không hợp lệ, chương trình báo lỗi
+a = 15; // gán a = 15; lúc này a thay đổi đổi = 15 dẫn tới (*b)=15, địa chỉ của p,a vẫn giữ nguyên
+3. trình bày tính chất của biến thường và biến con trỏ trong phạm vi trỏ
+Trong phạm vi trỏ: 
+tại 1 thời điểm: 1 con trỏ chỉ trỏ được duy nhất 1 biến còn 1 biến có thể được trỏ bởi nhiều con trỏ
+4. Lợi ích của con trỏ ?
+quản lí bộ nhớ, linh hoạt sử dụng
+5. kích thước con trỏ là bao nhiêu ? trình bày chi tiết ?
+mọi biến con trỏ chỉ có kích thức là 4 byte cho mọi kiểu mà nó trỏ tới
+6. trình bày cú pháp của hàm trả về một con trỏ
+<kiểu dữ liệu nó trỏ tới> * <tên con trỏ>;
+//============================ Phần 1 ==================
+1. C: các hàm cấp phát nằm ở thư viện nào ?
+thứ viên stdlib.h
+2. C: nguyên mẫu hàm của các hàm cấp phát
+void *malloc(int size) 
+void *calloc(int n, int size) 
+void *realloc(int *p, int size) 
+3. C: ứng dụng: lời gọi hàm
+với hàm malloc: int*p = (int*)malloc(sizeof(int))
+với hàm calloc: int*p = (int*)calloc(n,sizeof(int))
+với hàm realloc: int *p= (int*)realloc(p,sizeof(int))
+4: C: cơ chế hoạt động của từng hàm ?
+void *malloc(int size) // cấp phát 1 vùng nhớ có size byte
+void *calloc(int n, int size) // cấp phát n vùng nhớ mỗi vùng có size byte
+void *realloc(int *p, int size) // cấp phát vùng nhớ size byte có con trỏ p, nếu p = NULL thì cấp phát mới còn p!=NULL thì cập nhật lại số size byte
+5: C++: cơ chế hoạt động của toán tử new
+int *p = new int [n];
+cấp phát cho con trỏ p n vùng nhớ có kiểu dữ liệu int;
+int *p = new int(m); // cấp phát cho con trỏ p 1 vùng nhớ và gán giá trị vùng nhớ đó = m;
+6: Nhận xét hàm realloc và new , giống và khác nhau ?
+hàm realloc và new đều là cấp phát cho con trỏ và có thể tái cấp phát lại khi kích thức vùng nhớ thay đổi;
+khác nhau: new thực chất là một toán tử còn realloc là một HÀM con trỏ vô kiểu, khi cấp phát phải ép kiểu cho nó
+
+realloc tái cấp phát trên vùng nhớ cũ của nó, nếu k đủ bộ nhớ liên tiếp thì nó sẽ đi tìm vùng nhớ mới chứa đủ số vùng nhớ cấp để cho các vùng nhớ liên tiếp với nhau
+new cấp phát lại sẽ thay đổi vùng nhớ cũ lẫn địa chỉ cũ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

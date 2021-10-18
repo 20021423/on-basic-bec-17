@@ -1,0 +1,4 @@
+3
+Nguyen Tuong Quyet,nam,11/07/2002,20021423
+Do Lan Huong,nu,15/12/2002,2001424
+Nguyen Van A,nam,13/07/2002,20021425

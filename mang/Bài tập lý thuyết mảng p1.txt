@@ -1,0 +1,9 @@
+đề bài:  https://paste.ubuntu.com/p/d7HK5dXNGF/?fbclid=IwAR13IKHn9mwNf1DevAIFejRZzgjhiE0lutejcrJBSIm-fEkcqidqvzW0Jqk
+1. mảng là tập hợp các phần tử cùng kiểu dữ liệu
+2. số lượng phần tử tối đa của mảng là giá trị không thay đổi, không thêm được
+3. mảng tĩnh: số lượng phần tử tối đa không thay đổi được, k thêm được
+mảng động: có thể thay đổi số lượng phần tử của mảng một cách linh hoạt
+4. Khi gặp lệnh int a[10], chương trình sẽ yêu cầu cấp nó 10 vùng nhớ có kích thức 4 byte, vùng nhớ này dùng để lưu trữ tối đa 10 phần tử của mảng có địa chị vùng nhớ liên tiếp nhau (cách nhau 4byte). Địa chỉ của mảng là địa chỉ của phần tử đầu tiên a[0]
+5. int a[7] là khai báo 1 mảng có tối đa 7 phần tử. lệnh a[0] là truy cập đến phần tử đầu tiên của mảng
+6. giá trị của các phần tử mảng sau khi vừa khai báo là giá trị ngẫu nhiên trong chương trình(giá trị rác)
+7. float a[n] thì sẽ có kích thức n.sizeof(float)= 4*n;

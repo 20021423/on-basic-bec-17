@@ -1,0 +1,14 @@
+1. trình bày đường dẫn tương đối, và đường dẫn tuyệt đối.
+- đường dẫn tuyệt đối là đường dẫn đến 1 file trong cụ thể 1 máy tính và chỉ luôn đúng với máy tính đang tương tác
+vd: C:\Users\quyet\OneDrive\Máy tính\on-basic-bec-17\Nhapxuatfile\Nhapxuatfile
+- đường dẫn tương đối:
+giả dụ đang click ở thư mục on-basic-bec-17
+giờ để dẫn tới file Nhapxuatfile thì chỉ cần cd Nhapxuatfile/Nhapxuatfile là sẽ mở đc file 
+
+2. Nhận xét Đúng SAi:
+a) Đọc file sau khi được đóng file, thì lần đọc file sau con trỏ sẽ trỏ về đầu
+b) Ghi file sau khi được đóng file, thì kết quả ghi file lần sau sẽ ghi tiếp vào file kết quả
+Trả lời:
+a) đúng
+b) sai 
+

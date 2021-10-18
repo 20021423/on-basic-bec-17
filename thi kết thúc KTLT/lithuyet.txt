@@ -1,0 +1,16 @@
+1. Trình bày lưu ý khi sử dụng hàm.
+- chú ý khi truyền tham chiếu và tham trị. 
+Truyền tham trị sẽ tốn công sao chép bộ nhớ và khi thoát ra hàm thì dữ liệu sẽ không cập nhật. 
+Truyền tham chiếu sẽ truy cập trực tiếp đến dữ liệu và sẽ cập nhật lại nếu có thay đổi.
+- Truyền giá trị cần đúng kiểu dữ liệu
+- khai báo nguyên mẫu hàm để không cần quan tâm đến thứ tự các hàm khi viết
+- với hàm truyền vào con trỏ thì không được tái cấp phát trong thân hàm. Cấp phát nên để ở hàm main
+2. Trình bày lưu ý khi sử dụng getline()
+Cơ chế của getline() là vào kho xem có dự liệu tồn không, nếu có thì lấy dự liệu đó, nếu không thì yêu cầu người dùng nhập vào
+chú ý: dữ liệu nhận cả kí tự ' ' và enter
+getline() là một hàm nên khi gọi cần truyền đủ biến
+3. Trình bày lưu ý khi sử dụng kdl struct.
+nếu struct có biến con trỏ thì cần chú ý
+- con trỏ thì phải cấp phát vùng nhớ để sử dụng
+- có cấp phát thì phải có delete
+- cần chú ý ghi gán struct ( viết riêng 1 hàm gán, với con trỏ thì phải gán giá trị của con trỏ trỏ tới để không sử dụng chung vùng nhớ)

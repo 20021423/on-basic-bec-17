@@ -1,0 +1,225 @@
+Hướng dẫn 1
+1. Tổng quan lập trình:
+//------- LÝ THUYẾT -------
+https://paste.ubuntu.com/p/MVmzJKfxqt/
+//--------- BÀI TẬP ---------
+https://paste.ubuntu.com/p/CmWd9zJ9xN/
+
+2. PHẦN 2: TOÁN TỬ + CÂU LỆNH ĐK, RẼ NHÁNH
+//====== LÝ THUYẾT ========
+https://paste.ubuntu.com/p/fDHXqF2CYm/
+//======= BÀI TẬP =========
+https://paste.ubuntu.com/p/bzM4QvVvZm/
+
+3. PHẦN 3: VÒNG LẶP
+//------ lý thuyết ---------
+https://paste.ubuntu.com/p/NHjsPgSNxj/
+//---------- Bt phần 1 --------
+https://paste.ubuntu.com/p/6WHNmvHNZD/
+//-------------- Bt tư duy -----------
+https://paste.ubuntu.com/p/rx3pVHx3w6/
+
+4. PHẦN 4: LUYỆN TẬP
+//------- CODE MẪU ---------
+https://paste.ubuntu.com/p/DtXCpKNw3y
+
+Hướng dẫn 2: Cấu trúc Hàm
+1. PHẦN 1: ĐỊNH NGHĨA, LỜI GỌI, KIỂU, THAM SỐ CỦA HÀM
+//---------- LÝ THUYẾT ----------
+https://paste.ubuntu.com/p/v4DhyQZN77/
+//-------------- BÀI TẬP LÝ THUYẾT +  CƠ BẢN ------
+https://paste.ubuntu.com/p/Mr7BcgzcDq/
+//-------------- nâng cao ---------
+https://paste.ubuntu.com/p/Mr7BcgzcDq/
+
+2.PHẦN 2: NGUYÊN MẪU HÀM + KHUÔN MẪU HÀM + NẠP CHỒNG HÀM
+//-------  CODE MẪU -----------
+https://paste.ubuntu.com/p/nxqXBBJzTM/
+//----------- BT HÀM NÂNG CAO ------------
+https://paste.ubuntu.com/p/hFNjfC3Zf7
+
+
+Hướng dẫn 3: Mảng
+1.PHẦN 1: TỔNG QUAN + LEVEL0
+//--------- CODE MẪU --------
+https://paste.ubuntu.com/p/ZGnHTscfy8/
+//----------- ĐỀ BT --------
+https://paste.ubuntu.com/p/d7HK5dXNGF/
+//------------ LÝ THUYẾT --------------
+https://paste.ubuntu.com/p/CdqrBMf4TQ/
+
+2. PHẦN 2: GIẢI BT + THÊM, XÓA
+//------- CODE PHÂN TÍCH SỐ -----
+https://paste.ubuntu.com/p/YsX7vK5vYg/
+//------- CODE GIẢI BT ------
+https://paste.ubuntu.com/p/rvfhP7Yxvg/
+//--------- CODE MẪU THÊM XÓA -------
+https://paste.ubuntu.com/p/mdHJ6n3ZgB/
+//----------- ĐỀ LEVEL 1 --------
+https://paste.ubuntu.com/p/BJPsYNY6CZ/
+ĐỀ NÂNG CAO
+//===== LEVEL 2
+https://paste.ubuntu.com/p/zm8c7QqXDj/
+//===== LEVEL 3
+https://paste.ubuntu.com/p/sg8DXkHtBx/
+
+3. PHẦN 3: GIẢI LV1 + GỘP TÁCH SẮP XẾP
+//------ LÝ THUYẾT ----
+https://paste.ubuntu.com/p/m7RCgW6hbB/
+//-------- CODE MẪU ---------------
+https://paste.ubuntu.com/p/9twdXGDgFh/
+
+4. PHẦN 4: GIẢI BT GỘP TÁCH TRỘN
+//--------- LÝ THUYẾT --------
+https://paste.ubuntu.com/p/R94KWVhGyG/
+//--------- CODE MẪU GIẢI --------
+https://paste.ubuntu.com/p/ZqbBDJyCzw/
+
+5. PHẦN 5: KỸ THUẬT ĐẢO MẢNG + MẢNG CON
+//======= CODE GIẢI MẪU ===
+https://paste.ubuntu.com/p/JqRMxzD6Vk/
+//======= ĐỀ LV3 =======
+https://paste.ubuntu.com/p/sg8DXkHtBx/
+//========= LÝ THUYẾT PHÂN TÍCH =====
+https://paste.ubuntu.com/p/hk9vHCN6mN/
+
+Hướng dẫn 4: Game rắn
+4 LEVEL ĐỒ HỌA + GAME
+//========= 4 LEVEL =====
+https://paste.ubuntu.com/p/JfnjjQxdQb/
+//========== CODE GAME ==========
+https://paste.ubuntu.com/p/kG5xskBVVK/
+
+Hướng dẫn 5: Con trỏ
+1. //========== CODE MENU ĐỘNG =====
+https://paste.ubuntu.com/p/Fx6TfFhdhZ/
+//========= LÝ THUYẾT ===
+https://paste.ubuntu.com/p/bHkwN4wFsW/
+
+2. PHẦN 2: CON TRỎ QUẢN LÝ MẢNG + CẤP PHÁT
+//======== LÝ THUYẾT ======
+https://paste.ubuntu.com/p/SR7kddFmmk/
+//======== CODE MẪU =======
+https://paste.ubuntu.com/p/mBDvXVWtJc/
+//======== BT ======
+https://paste.ubuntu.com/p/64SSFyt5cd/
+
+3. PHẦN 3: CẤP PHÁT C++
+//-------- LÝ THUYẾT -------
+https://paste.ubuntu.com/p/HMMPsy9q32/
+//----------- CODE MẪU ------------
+https://paste.ubuntu.com/p/vNvbMs7bJQ/
+
+4. PHẦN 4: THÊM, XÓA + MENU TĨNH
+//---------- CODE MẪU ----------
+https://paste.ubuntu.com/p/DT6gPCxYMd/
+
+Hướng dẫn 6: Mảng 2 chiều - vector 
+//======= Mảng 2 chiều + vector ===
+//======= CODE MẪU MẢNG 2 CHIỀU ====
+https://paste.ubuntu.com/p/8jNvS4227Z/
+//========= LÝ THUYẾT ======
+https://paste.ubuntu.com/p/9FX7Bf7wXN/
+//=========== CODE MẪU VECTOR ===
+https://paste.ubuntu.com/p/rM8kjFZyzZ/
+//======== BT ========
+https://paste.ubuntu.com/p/wHsgQJW65s/
+
+Hướng dẫn 7: Xâu,chuỗi 
+BUILD THƯ VIỆN STRING.H
+//------------- CODE MẪU -----
+https://paste.ubuntu.com/p/NxzHyhGTMV/
+//----------- BT STRING NÂNG CAO ----
+https://paste.ubuntu.com/p/2TCNBQStpY/
+//------------- code mẫu string -----
+https://paste.ubuntu.com/p/KTdR4rFrJR/
+PHẦN 1: XÂU - CHAR []
+//------------- LÝ THUYẾT -------
+https://paste.ubuntu.com/p/QnXm42NHzf/
+//------------ CODE GIẢI BT MẢNG 2 CHIỀU ----
+https://paste.ubuntu.com/p/5N8Yvr77y5/
+//--------------- CODE MẪU TRÔI LỆNH -----
+https://paste.ubuntu.com/p/HwdnyxWNTD/
+//-------------- BT -----------
+https://paste.ubuntu.com/p/FZN3Wfbkjv/
+
+Hướng dẫn 8: KDL CẤU trúc - gán - Quản lý DS - Struct
+ĐỊNH NGHĨA - GÁN - QUẢN LÝ STRUCT
+//---- code mẫu gán(code full ra giấy 1 lần) ----
+https://paste.ubuntu.com/p/5QfVmvvzhw/
+//---------- CODE MẪU QUẢN LÝ DS SỐ NGUYÊN(THAM KHẢO)----
+https://paste.ubuntu.com/p/PTCWPXm9kS/
+//-----------CODE MẪU QUẢN LÝ STRUCT DS SINH VIÊN --------
+https://paste.ubuntu.com/p/kdnSVJVfYy/   (CODE THEO ẢNH) 
+//======== BT BUỔI SAU (BTUD: yêu cầu 100% B1) ========
+https://paste.ubuntu.com/p/7BbyNS8d7G/
+QUẢN LÝ PS + NẠP CHỒNG TOÁN TỬ
+//======== LÝ THUYẾT =======
+https://paste.ubuntu.com/p/6HBrfqbvFc/
+//========== CODE MẪU QL PS ==========
+https://paste.ubuntu.com/p/gxx6pZpDc3/
+//======== CODE MẪU NẠP CHỒNG TOÁN TỬ =====
+https://paste.ubuntu.com/p/Y57rdG9cm8/
+//======== BT code mẫu + ứng dụng ============
+CODE MẪU MỖI HÀM NẠP CHỒNG 3 LẦN
+https://paste.ubuntu.com/p/3vR3FkKmKB/
+//============ SẢN PHẨM SIÊU MÁY TÍNH =====
+https://paste.ubuntu.com/p/4Hh8JzMtGq/
+
+Hướng dẫn 9: Đọc ghi file
+PHẦN 1: ĐỌC FILE LV1,2
+//------- CODE MẪU -----
+https://paste.ubuntu.com/p/88RbnWM2yv/
+//--------- ĐỀ -----------
+https://paste.ubuntu.com/p/yVDhZ2QmwN/
+//--------- BTCODE MẪU: ĐỌC FILE LV1, LV2 --------
+//--------- BT ỨNG DỤNG: LV3 ----------
+//---------------- LÝ THUYẾT --------
+https://paste.ubuntu.com/p/QKrwQxktBK/
+//----------- CODE MẪU SP SMT -----------
+https://paste.ubuntu.com/p/sFrV4cP8Wg/
+PHẦN 2: ĐỌC FILE LV3, GHI FILE + GIẢI TEST
+//-------- CODE MẪU --------
+https://paste.ubuntu.com/p/k22MTNVVT2/
+//-------- QL SV ------
+https://paste.ubuntu.com/p/qpyPcTjV3g/
+//-------- BT CODE MẪU -----------
+int kt_trung_ma_sv(sv ds[], int n, string a);
+istream& operator >> (istream &is, sv &a);
+void load_file(sv ds[], int &n);
+string cat_ho_ten(string s, int i);
+void sap_xep_ds_theo_ten(sv ds[], int n);
+
+Hướng dẫn 10: DSLK
+PHẦN 1: DSLK LÀ GÌ ?, THÊM CUỐI, THÊM ĐẦU
+//======== CODE MẪU ====
+https://paste.ubuntu.com/p/2zgWHF9q3M/
+//===== LÝ THUYẾT =====
+https://paste.ubuntu.com/p/2C423HD228/
+PHẦN CUỐI: TỔNG HỢP 11 KỸ THUẬT + LOAD FILE
+//===== code mẫu full ======
+https://paste.ubuntu.com/p/MT5R8C4GCM/
+
+Hướng dẫn 11: Bài tập QLSV
+PHẦN 1: DS MÔN, DS LỚP, DS SV
+//========== Đề ========
+https://paste.ubuntu.com/p/vfVPNCJCss/
+//--------------- file mẫu ---------------
+https://paste.ubuntu.com/p/xbMDX8FVBZ/
+//======== code mẫu =========
+//--- ctdl --
+https://paste.ubuntu.com/p/678kcnCxGR/
+//---- loadfile ---
+https://paste.ubuntu.com/p/fWbbxQFCbR/
+//----- xu ly ----
+https://paste.ubuntu.com/p/y5SMTGkjhM/
+
+Hướng dẫn 12: Đệ quy
+//------- LÝ THUYẾT -------
+https://paste.ubuntu.com/p/8MKBPzXmf3/
+//-------- code mẫu giải BT -----
+https://paste.ubuntu.com/p/TC4dHzYMKr/
+//-------- BT ---------
+https://paste.ubuntu.com/p/X3996BZYn6/
+
+
